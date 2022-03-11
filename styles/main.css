@@ -1,0 +1,209 @@
+/*******************************  
+    GLOBAL STYLES
+****************************** */
+body,input,button,input [type=text]{
+    font-family: 'Inconsolata', Arial, sans-serif;
+}
+
+body {
+    background-color: #3B185F;
+    color: #fff;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+a {
+  color: #FEC260;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+/*******************************  
+    LOGIN
+*******************************/
+.alert {
+  padding-top: 10px;
+  color: #dc143c;
+  font-size: 14px;
+}
+
+.form-login {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 100px;
+  background: #2A0944;
+  margin-top: 65px;
+  border-radius: 20px;
+}
+
+/*******************************  
+    EDIT PAGE / ADMIN
+*******************************/
+.page-wrapper {
+    padding: 50px;
+    line-height: 1.2;
+    display: flex;
+}
+
+.page-left {
+    flex-basis: 50%;
+    max-width: 800px;
+    background-color: #2A0944;
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 650px;
+    text-align: center;
+}
+
+.page-right {
+    flex-basis: 50%;
+}
+
+.header h1 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #A12568;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px 0px;
+    width: 135px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #1C062D;
+    cursor: pointer;
+}
+
+.class-data table tr td {
+    padding: 8px;
+    border: 1px dashed #FEC260;
+    font-size: 12px;
+}
+
+/******************************* 
+    INDEX PAGE / YEARBOOK
+****************************** */
+.page-wrapper-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 3px solid #FEC260;
+    border-radius: 20px;
+    background-color: #2A0944;
+    max-width: 600px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+    margin: 15px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #1C062D;
+    border-radius: 20px 20px 0 0;
+    max-height: 400px;
+}
+
+.top-text {
+    padding: 0 30px;
+    width: 300px;
+}
+
+.top h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.bottom {
+    text-align: center;
+    line-height: 1.2;
+    padding: 0 10px;
+}
+
+.bottom h3 {
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.bottom p {
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.top img {
+    max-width: 300px;
+    border-radius: 0 16px 0 0;
+}
+
+.actions {
+    padding-bottom: 20px;
+}
+
+.actions img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.actions img:hover {
+    width: 35px;
+    transition: 1s;
+    cursor: pointer;
+    filter: invert(9%) sepia(25%) saturate(0%) hue-rotate(355deg) brightness(70%) contrast(87%);
+}
+
+.actions a {
+    text-decoration: none;
+}
+
+.btn-2 {
+    color: #fff;
+    background-color: #A12568;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-2:hover {
+    background-color: #1C062D;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
